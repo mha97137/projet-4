@@ -1,3 +1,5 @@
+from tinydb import TinyDB, Query
+
 class Player:
     def __init__(self, nom, prenom, naissance, sexe, classement):
         self.nom = nom
