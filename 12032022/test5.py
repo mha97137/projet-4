@@ -20,7 +20,7 @@ cursor.execute("CREATE TABLE IF NOT EXISTS players("+
 # enregistrer modifications
 conexion.commit()
 
-# erse data #########################################################
+# erase data #########################################################
 cursor.execute("DELETE FROM players")
 conexion.commit()
 
