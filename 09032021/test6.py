@@ -1,7 +1,0 @@
-cosa = list()
-cosa.append('python')
-cosa.append('chuck')
-cosa.sort()
-print(cosa[0])
-print(cosa.__getitem__(0))
-print(list.__getitem__(cosa, 0))
